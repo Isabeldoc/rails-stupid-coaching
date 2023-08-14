@@ -1,0 +1,10 @@
+<div class="container my-3 p-3 border-start border-5 ">
+<%= @answer %>
+<p class="mt-3">-You</p>
+</div>
+
+<div class="container my-3 p-3 border-start border-5 bg-warning bg-opacity-10">
+<%= @coach_answer %>
+<p class="mt-3">-Your coach</p>
+</div>
+<%= link_to "Ask a new question", ask_path, class:"text-decoration-none" %>
